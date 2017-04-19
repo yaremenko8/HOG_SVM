@@ -7,7 +7,7 @@ import time
 import pickle
 from beep import beep
 
-path    = "//home/grigory/train/"
+path    = "./train/"
 samples_from_class = 195
 tests_from_class   = 25
 
