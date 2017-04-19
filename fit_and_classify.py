@@ -2,7 +2,6 @@ from sklearn import svm
 from hog import extract_hog
 import pickle
 
-path    = "//home/grigory/train/"
 
 def fit_and_classify(machine_file, samples):
     f = open(machine_file, "rb")
